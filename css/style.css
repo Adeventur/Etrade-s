@@ -1,113 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap');
 
-
 * {
-          padding: 0;
-          margin: 0;
-          box-sizing: border-box;
-          font-family: 'DM Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
 }
 
 a {
-          color: white;
+    color: white;
 }
-      
+
 ul {
-          list-style: none;
+    list-style: none;
 }
-      
+
 .landing {
-          background-image: url("../img/banner-bg.png");
-          background-size: cover;
-          background-repeat: no-repeat;
-          width: 100%;
-          height: 100vh;
+    background-image: url("../img/banner-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
 }
- 
+
 .campaign {
-          background-image: url("../img/campaign-bg2.png");
-          background-size: cover;
-          background-repeat: no-repeat;
-          width: 100%;
+    background-image: url("../img/campaign-bg2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
 }
-      
+
 .campaign-p {
-          text-align: center;
-          color: #EEB2FF;
-          padding: 10px 0px;
-          font-size: 14px;
- }
-      
+    text-align: center;
+    color: #EEB2FF;
+    padding: 10px 0px;
+    font-size: 14px;
+}
+
 .showcase {
-          padding: 20px 99.6px;
+    padding: 20px 99.6px;
 }
 
 .header {
-          background-color: #ffffff;
-          border-radius: 10px;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 0px 20px;
-          position: fixed;
-          width: 90%;
-          box-shadow: 0 4px 10px rgba(37, 47, 63, .1);
-}
-      
-.header ul {
-          display: inline-flex;
-}
-      
-.header li {
-          padding: 24px;
-}
-      
-.header a {
-          color: #292930;
-          font-size: 15px;
-          text-decoration: none;
-          font-weight: 900;
-}
-      
-.header .btn {
-          background-color: #3577F0;
-          font-size: 15px;
-          padding: 12px 30px;
-          border: none;
-          color: #ffffff;
-          border-radius: 10px;
-}
-      
-.cta {
-          margin-top: 80px;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-}
-      
-.cta .icon {
-          margin-right: 10px;
-          font-size: 14px;
-}
-      
-.cta h1 {
-          font-size: 44px;
-          margin-bottom: 50px;
-}
-      
-.cta h4 {
-          color: #FF497C;
-          font-size: 14px;
-}
-      
-.cta-stat {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-}
-      
-.cta-stat h2 {
-          color: #3577F0;
-          font-size: 42px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    position: fixed;
+    width: 90%;
+    box-shadow: 0 4px 10px rgba(37, 47, 63, .1);
 }
 
+.header ul {
+    display: inline-flex;
+}
+
+.header li {
+    padding: 24px;
+}
+
+.header a {
+    color: #292930;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.header .btn {
+    background-color: #3577F0;
+    font-size: 15px;
+    padding: 12px 30px;
+    border: none;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.cta {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta .icon {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.cta h1 {
+    font-size: 44px;
+    margin-bottom: 50px;
+}
+
+.cta h4 {
+    color: #FF497C;
+    font-size: 14px;
+}
+
+.cta-stat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-stat h2 {
+    color: #3577F0;
+    font-size: 42px;
+}
+
+.cta-b {
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    margin-bottom: -170px;
+    margin-top: 50px;
+    box-shadow: 0 4px 10px rgba(37, 47, 63, .1);
+}
